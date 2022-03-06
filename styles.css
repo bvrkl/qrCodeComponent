@@ -1,7 +1,7 @@
 html,
 body {
-  background-color: rgb(217, 217, 217);
-  font-family: Roboto;
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -15,7 +15,7 @@ body {
   align-items: center;
   flex-direction: column;
   padding: 25px;
-  width: 320px;
+  width: 300px;
 }
 
 div,
@@ -31,4 +31,15 @@ img {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
+
+h2 {
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
 }
